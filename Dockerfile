@@ -21,4 +21,4 @@ COPY --from=build /app/out ./
 EXPOSE 80
 
 # Start the application
-ENTRYPOINT ["dotnet", "NET-Core-Web-API-Docker-Demo.dll"]
+ENTRYPOINT ["dotnet", "Docker-Core-API.dll"]
